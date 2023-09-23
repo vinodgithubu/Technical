@@ -1,0 +1,2 @@
+# Technical
+Telit Cinterion assignment 
