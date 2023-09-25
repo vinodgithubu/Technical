@@ -1,0 +1,27 @@
+<div class="container">
+    <table class="list-table" *ngIf="records?.length > 0 else noData">
+        <thead class="list-table headers">
+            <tr>
+                <th class="cursor-none">view</th>
+                <th *ngFor="let column of headersList"
+                    [ngClass]='{"icon-up-arrow": (column == sortedColumn && !isAscending),"icon-down-arrow": (column == sortedColumn && isAscending)}'
+                    (click)="sortRecords(column)">{{ column | readable }}</th>:
+            </tr>
+        </thead>
+        <tbody class="list-table body">
+            <tr *ngFor="let record of records">
+                <td>
+                    <span class="icon icon-view-record cursor-pointer" (click)="openRecordModel(record.id)"></span>
+                </td>
+                <td *ngFor="let column of headersList">
+                    {{
+                    getColumnValue(column,record[column]) || "NA"
+                    }}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <ng-template #noData>
+        <div class="no-data">No Record</div>
+    </ng-template>
+</div>
