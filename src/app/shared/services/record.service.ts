@@ -57,7 +57,7 @@ export class RecordService {
   }
   addRecordsToList(NoOfRecords = 10) {
     for (let i = 0; i < NoOfRecords; i++) {
-      let rr = { ...this.record, id: (i + 1).toString() };
+      let rr = { ...this.record, id: (i + 1).toString(),locLat:this.record.locLat+i };
       this.recordList.push(rr);
     }
   }

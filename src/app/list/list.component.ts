@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DatePipe } from '@angular/common';
-import { Record } from '../shared/record';
+import { RecordModel } from '../shared/models/record';
+import { RecordService } from '../shared/services/record.service';
 
 @Component({
   selector: 'app-list',
@@ -8,15 +9,26 @@ import { Record } from '../shared/record';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent implements OnInit {
-  records: Record[];
+  records: RecordModel[] = [];
   sortedColumn: string;
   isAscending: boolean = true;
   headersList: string[];
-  constructor(private datePipe: DatePipe) {
+
+  // Pagination
+  currentPage: number = 1;
+  pageSize: number = 10;
+  totalRecords: number = 0;
+  constructor(private datePipe: DatePipe, private _recordService: RecordService,) {
   }
 
   ngOnInit() {
     this.initTable();
+  }
+  initTable() {
+    let recordDetails = this._recordService.getRecordWithDetails();
+    this.records = recordDetails.records;
+    this.totalRecords = this.records.length;
+    this.headersList = recordDetails.headers;
   }
   getKeys(obj: any): string[] {
     return Object.keys(obj);
@@ -43,20 +55,36 @@ export class ListComponent implements OnInit {
     }
 
     this.records.sort((a, b) => {
-      const valueA = a[field].toString().toLowerCase();
-      const valueB = b[field].toString().toLowerCase();
-
-      if (valueA < valueB) return this.isAscending ? -1 : 1;
-      if (valueA > valueB) return this.isAscending ? 1 : -1;
-      return 0;
+      const valueA = a[field];
+      const valueB = b[field];
+      if (typeof valueA === 'string' && typeof valueB === 'string') {
+        return this.isAscending
+          ? valueA.localeCompare(valueB)
+          : valueB.localeCompare(valueA);
+      } else {
+        return this.isAscending ? valueA - valueB : valueB - valueA;
+      }
     });
     this.sortedColumn = field;
   }
   openRecordModel(recordId) {
     console.log("recordId ", recordId)
   }
-  initTable() {
-    this.records = [];
-    this.headersList = this.records.length && Object.keys(this.records[0]);
+
+  get paginatedRecords(): RecordModel[] {
+    const startIndex = (this.currentPage - 1) * this.pageSize;
+    return this.records.slice(startIndex, startIndex + this.pageSize);
+  }
+
+  get totalPages(): number {
+    return Math.ceil(this.totalRecords / this.pageSize);
+  }
+  setPage(pageNumber: number) {
+    if (pageNumber >= 1 && pageNumber <= this.totalPages) {
+      this.currentPage = pageNumber;
+    }
+  }
+  setPageSize(pageSize: number) {
+    this.pageSize = pageSize;
   }
 }
