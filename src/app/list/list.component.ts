@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { DatePipe } from '@angular/common';
 import { RecordModel } from '../shared/models/record';
 import { RecordService } from '../shared/services/record.service';
+import { MatDialog } from '@angular/material/dialog';
+import { RecordComponent } from '../record/record.component';
 
 @Component({
   selector: 'app-list',
@@ -18,7 +20,7 @@ export class ListComponent implements OnInit {
   currentPage: number = 1;
   pageSize: number = 10;
   totalRecords: number = 0;
-  constructor(private datePipe: DatePipe, private _recordService: RecordService,) {
+  constructor(private datePipe: DatePipe, private _recordService: RecordService,private dialog: MatDialog) {
   }
 
   ngOnInit() {
@@ -68,6 +70,11 @@ export class ListComponent implements OnInit {
     this.sortedColumn = field;
   }
   openRecordModel(recordId) {
+    const dialogRef = this.dialog.open(RecordComponent, {
+      data: {
+        recordId,
+      },
+    });
     console.log("recordId ", recordId)
   }
 

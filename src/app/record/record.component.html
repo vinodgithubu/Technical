@@ -1,1 +1,30 @@
-<p>record works!</p>
+<div class="container">
+    <div class="action-btn">
+        <button mat-raised-button mat-dialog-close tabindex="-1">
+            X
+        </button>
+    </div>
+    <div class="recordCard">
+        <ng-container *ngFor="let item of record | keyvalue; index as i">
+            <div>
+                <span class="record-key">{{ item.key | readable }} : </span>
+                <ng-container *ngIf="item.key == 'locAddress'">
+                    {{
+                    item.value["streetNumber"] +
+                    ", " +
+                    item.value["street"] +
+                    ", " +
+                    item.value["city"] +
+                    ", " +
+                    item.value["state"] +
+                    ", " +
+                    item.value["country"] +
+                    ", " +
+                    item.value["zipCode"]
+                    }}
+                </ng-container>
+                <span *ngIf="item.key !== 'locAddress'">{{ item.value || "NA" }}</span>
+            </div>
+        </ng-container>
+    </div>
+</div>

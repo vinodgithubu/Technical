@@ -1,0 +1,18 @@
+.transparent {
+    background: rgba(0, 0, 0, 0);
+}
+.action-btn {
+    display: flex;
+    justify-content: end;
+}
+.recordCard {
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.record-key {
+    margin-right: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
