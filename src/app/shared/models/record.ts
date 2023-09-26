@@ -1,4 +1,4 @@
-export interface Record {
+export interface RecordModel {
     carrier: string;
     dateActivated: string;
     dateAdded: string;

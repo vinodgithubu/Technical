@@ -1,0 +1,17 @@
+<div class="pagination">
+    <div class="nav">
+        <ng-container *ngIf="totalPages > 1">
+            <span (click)="firstPage()" [ngClass]='{"deactive":currentPage === 1}'>First</span>
+            <span (click)="prevPage()" [ngClass]='{"deactive":currentPage === 1}'>Previous</span>
+            <span *ngFor="let page of pageNumbers" (click)="setPageNumber(page)"
+                [ngClass]='{"active":currentPage === page}'>{{ page }}</span>
+            <span (click)="nextPage()" [ngClass]='{"deactive":currentPage === totalPages}'>Next</span>
+            <span (click)="lastPage()" [ngClass]='{"deactive":currentPage === totalPages}'>Last</span>
+        </ng-container>
+    </div>
+    <div class="list">
+        Items per page :
+        <span *ngFor="let item of itemsPerPages" [ngClass]='{"active": pageSize === item}'
+            (click)="setItemsPerPage(item)"> {{item}}</span>
+    </div>
+</div>

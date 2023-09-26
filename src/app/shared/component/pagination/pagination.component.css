@@ -1,0 +1,27 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
+.pagination span:hover {
+    color: white;
+    background-color: #757575;
+    border-radius: 10px;
+}
+.pagination span {
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.active {
+    background-color: #757575;
+    color: white;
+    border-radius: 10px;
+    pointer-events: none;
+}
+.deactive {
+    color: #757575;
+    pointer-events: none;
+}
