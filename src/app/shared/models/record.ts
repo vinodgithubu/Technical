@@ -1,8 +1,8 @@
 export interface RecordModel {
     carrier: string;
-    dateActivated: string;
-    dateAdded: string;
-    dateModified: string;
+    dateActivated: string | Date;
+    dateAdded: string | Date;
+    dateModified: string | Date;
     hasDataUsage: boolean;
     hasSmsUsage: boolean;
     hasVoiceUsage: boolean;

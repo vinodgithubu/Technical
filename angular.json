@@ -23,7 +23,8 @@
             "tsConfig": "tsconfig.json",
             "aot": false,
             "assets": [
-              "src/assets"
+              "src/assets",
+              "src/data.json"
             ],
             "styles": [
               "src/styles.css"

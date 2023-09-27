@@ -1,0 +1,872 @@
+[
+    {
+      "carrier": "Vodafone",
+      "dateActivated": "2021-07-08T15:14:05Z",
+      "dateAdded": "2014-08-25T10:49:14Z",
+      "dateModified": "2021-09-17T13:57:27Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001280",
+      "id": "555555555555555555555555",
+      "identity": "ICCID: 89000000000000001280",
+      "imei": "300000000000008",
+      "imsi": "310000000000008",
+      "imsis": [
+        "310000000000008"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "5300",
+        "street": "Brokensound BLVD NW",
+        "city": "Boca Raton",
+        "state": "Florida",
+        "zipCode": "33487",
+        "country": "US"
+      },
+      "locLat": 26.3951167,
+      "locLng": -80.1146146,
+      "meid": null,
+      "msisdn": "5555555551",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "B0129D9A"    
+    },
+    {
+      "carrier": "AT&T",
+      "dateActivated": "2021-06-21T14:30:45Z",
+      "dateAdded": "2015-09-12T09:15:22Z",
+      "dateModified": "2021-09-17T13:57:27Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001281",
+      "id": "555555555555555555555556",
+      "identity": "ICCID: 89000000000000001281",
+      "imei": "300000000000009",
+      "imsi": "310000000000009",
+      "imsis": [
+        "310000000000009"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "1234",
+        "street": "Main St",
+        "city": "New York",
+        "state": "New York",
+        "zipCode": "10001",
+        "country": "US"
+      },
+      "locLat": 40.7127753,
+      "locLng": -74.0059728,
+      "meid": null,
+      "msisdn": "5555555552",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "C1234D9B"
+    },
+    {
+      "carrier": "Verizon",
+      "dateActivated": "2022-01-15T09:22:18Z",
+      "dateAdded": "2019-04-30T11:20:30Z",
+      "dateModified": "2022-08-10T16:43:55Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001282",
+      "id": "555555555555555555555557",
+      "identity": "ICCID: 89000000000000001282",
+      "imei": "300000000000010",
+      "imsi": "310000000000010",
+      "imsis": [
+        "310000000000010"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "7890",
+        "street": "Oak St",
+        "city": "San Francisco",
+        "state": "California",
+        "zipCode": "94102",
+        "country": "US"
+      },
+      "locLat": 37.7749295,
+      "locLng": -122.4194155,
+      "meid": null,
+      "msisdn": "5555555553",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "D5678E1F"
+    },
+    {
+      "carrier": "Airtel",
+      "dateActivated": "2022-02-15T09:22:18Z",
+      "dateAdded": "2019-05-30T11:20:30Z",
+      "dateModified": "2022-10-10T16:43:55Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001282",
+      "id": "555555555555555555555558",
+      "identity": "ICCID: 89000000000000001282",
+      "imei": "300000000000010",
+      "imsi": "310000000000010",
+      "imsis": [
+        "310000000000010"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "7890",
+        "street": "Oak St",
+        "city": "San Francisco",
+        "state": "California",
+        "zipCode": "94102",
+        "country": "US"
+      },
+      "locLat": 37.7749295,
+      "locLng": -122.4194155,
+      "meid": null,
+      "msisdn": "5555555553",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "D5878E1F"
+    },{
+      "carrier": "Vodafone",
+      "dateActivated": "2021-07-08T15:14:05Z",
+      "dateAdded": "2014-08-25T10:49:14Z",
+      "dateModified": "2021-09-17T13:57:27Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001280",
+      "id": "555555555555555555555555",
+      "identity": "ICCID: 89000000000000001280",
+      "imei": "300000000000008",
+      "imsi": "310000000000008",
+      "imsis": [
+        "310000000000008"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "5300",
+        "street": "Brokensound BLVD NW",
+        "city": "Boca Raton",
+        "state": "Florida",
+        "zipCode": "33487",
+        "country": "US"
+      },
+      "locLat": 26.3951167,
+      "locLng": -80.1146146,
+      "meid": null,
+      "msisdn": "5555555551",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "B0129D9A"    
+    },
+    {
+      "carrier": "AT&T",
+      "dateActivated": "2021-06-21T14:30:45Z",
+      "dateAdded": "2015-09-12T09:15:22Z",
+      "dateModified": "2021-09-17T13:57:27Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001281",
+      "id": "555555555555555555555556",
+      "identity": "ICCID: 89000000000000001281",
+      "imei": "300000000000009",
+      "imsi": "310000000000009",
+      "imsis": [
+        "310000000000009"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "1234",
+        "street": "Main St",
+        "city": "New York",
+        "state": "New York",
+        "zipCode": "10001",
+        "country": "US"
+      },
+      "locLat": 40.7127753,
+      "locLng": -74.0059728,
+      "meid": null,
+      "msisdn": "5555555552",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "C1234D9B"
+    },
+    {
+      "carrier": "Verizon",
+      "dateActivated": "2022-01-15T09:22:18Z",
+      "dateAdded": "2019-04-30T11:20:30Z",
+      "dateModified": "2022-08-10T16:43:55Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001282",
+      "id": "555555555555555555555557",
+      "identity": "ICCID: 89000000000000001282",
+      "imei": "300000000000010",
+      "imsi": "310000000000010",
+      "imsis": [
+        "310000000000010"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "7890",
+        "street": "Oak St",
+        "city": "San Francisco",
+        "state": "California",
+        "zipCode": "94102",
+        "country": "US"
+      },
+      "locLat": 37.7749295,
+      "locLng": -122.4194155,
+      "meid": null,
+      "msisdn": "5555555553",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "D5678E1F"
+    },
+    {
+      "carrier": "Airtel",
+      "dateActivated": "2022-02-15T09:22:18Z",
+      "dateAdded": "2019-05-30T11:20:30Z",
+      "dateModified": "2022-10-10T16:43:55Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001282",
+      "id": "555555555555555555555558",
+      "identity": "ICCID: 89000000000000001282",
+      "imei": "300000000000010",
+      "imsi": "310000000000010",
+      "imsis": [
+        "310000000000010"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "7890",
+        "street": "Oak St",
+        "city": "San Francisco",
+        "state": "California",
+        "zipCode": "94102",
+        "country": "US"
+      },
+      "locLat": 37.7749295,
+      "locLng": -122.4194155,
+      "meid": null,
+      "msisdn": "5555555553",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "D5878E1F"
+    },{
+      "carrier": "Vodafone",
+      "dateActivated": "2021-07-08T15:14:05Z",
+      "dateAdded": "2014-08-25T10:49:14Z",
+      "dateModified": "2021-09-17T13:57:27Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001280",
+      "id": "555555555555555555555555",
+      "identity": "ICCID: 89000000000000001280",
+      "imei": "300000000000008",
+      "imsi": "310000000000008",
+      "imsis": [
+        "310000000000008"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "5300",
+        "street": "Brokensound BLVD NW",
+        "city": "Boca Raton",
+        "state": "Florida",
+        "zipCode": "33487",
+        "country": "US"
+      },
+      "locLat": 26.3951167,
+      "locLng": -80.1146146,
+      "meid": null,
+      "msisdn": "5555555551",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "B0129D9A"    
+    },
+    {
+      "carrier": "AT&T",
+      "dateActivated": "2021-06-21T14:30:45Z",
+      "dateAdded": "2015-09-12T09:15:22Z",
+      "dateModified": "2021-09-17T13:57:27Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001281",
+      "id": "555555555555555555555556",
+      "identity": "ICCID: 89000000000000001281",
+      "imei": "300000000000009",
+      "imsi": "310000000000009",
+      "imsis": [
+        "310000000000009"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "1234",
+        "street": "Main St",
+        "city": "New York",
+        "state": "New York",
+        "zipCode": "10001",
+        "country": "US"
+      },
+      "locLat": 40.7127753,
+      "locLng": -74.0059728,
+      "meid": null,
+      "msisdn": "5555555552",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "C1234D9B"
+    },
+    {
+      "carrier": "Verizon",
+      "dateActivated": "2022-01-15T09:22:18Z",
+      "dateAdded": "2019-04-30T11:20:30Z",
+      "dateModified": "2022-08-10T16:43:55Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001282",
+      "id": "555555555555555555555557",
+      "identity": "ICCID: 89000000000000001282",
+      "imei": "300000000000010",
+      "imsi": "310000000000010",
+      "imsis": [
+        "310000000000010"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "7890",
+        "street": "Oak St",
+        "city": "San Francisco",
+        "state": "California",
+        "zipCode": "94102",
+        "country": "US"
+      },
+      "locLat": 37.7749295,
+      "locLng": -122.4194155,
+      "meid": null,
+      "msisdn": "5555555553",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "D5678E1F"
+    },
+    {
+      "carrier": "Airtel",
+      "dateActivated": "2022-02-15T09:22:18Z",
+      "dateAdded": "2019-05-30T11:20:30Z",
+      "dateModified": "2022-10-10T16:43:55Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001282",
+      "id": "555555555555555555555558",
+      "identity": "ICCID: 89000000000000001282",
+      "imei": "300000000000010",
+      "imsi": "310000000000010",
+      "imsis": [
+        "310000000000010"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "7890",
+        "street": "Oak St",
+        "city": "San Francisco",
+        "state": "California",
+        "zipCode": "94102",
+        "country": "US"
+      },
+      "locLat": 37.7749295,
+      "locLng": -122.4194155,
+      "meid": null,
+      "msisdn": "5555555553",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "D5878E1F"
+    },{
+      "carrier": "Vodafone",
+      "dateActivated": "2021-07-08T15:14:05Z",
+      "dateAdded": "2014-08-25T10:49:14Z",
+      "dateModified": "2021-09-17T13:57:27Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001280",
+      "id": "555555555555555555555555",
+      "identity": "ICCID: 89000000000000001280",
+      "imei": "300000000000008",
+      "imsi": "310000000000008",
+      "imsis": [
+        "310000000000008"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "5300",
+        "street": "Brokensound BLVD NW",
+        "city": "Boca Raton",
+        "state": "Florida",
+        "zipCode": "33487",
+        "country": "US"
+      },
+      "locLat": 26.3951167,
+      "locLng": -80.1146146,
+      "meid": null,
+      "msisdn": "5555555551",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "B0129D9A"    
+    },
+    {
+      "carrier": "AT&T",
+      "dateActivated": "2021-06-21T14:30:45Z",
+      "dateAdded": "2015-09-12T09:15:22Z",
+      "dateModified": "2021-09-17T13:57:27Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001281",
+      "id": "555555555555555555555556",
+      "identity": "ICCID: 89000000000000001281",
+      "imei": "300000000000009",
+      "imsi": "310000000000009",
+      "imsis": [
+        "310000000000009"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "1234",
+        "street": "Main St",
+        "city": "New York",
+        "state": "New York",
+        "zipCode": "10001",
+        "country": "US"
+      },
+      "locLat": 40.7127753,
+      "locLng": -74.0059728,
+      "meid": null,
+      "msisdn": "5555555552",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "C1234D9B"
+    },
+    {
+      "carrier": "Verizon",
+      "dateActivated": "2022-01-15T09:22:18Z",
+      "dateAdded": "2019-04-30T11:20:30Z",
+      "dateModified": "2022-08-10T16:43:55Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001282",
+      "id": "555555555555555555555557",
+      "identity": "ICCID: 89000000000000001282",
+      "imei": "300000000000010",
+      "imsi": "310000000000010",
+      "imsis": [
+        "310000000000010"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "7890",
+        "street": "Oak St",
+        "city": "San Francisco",
+        "state": "California",
+        "zipCode": "94102",
+        "country": "US"
+      },
+      "locLat": 37.7749295,
+      "locLng": -122.4194155,
+      "meid": null,
+      "msisdn": "5555555553",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "D5678E1F"
+    },
+    {
+      "carrier": "Airtel",
+      "dateActivated": "2022-02-15T09:22:18Z",
+      "dateAdded": "2019-05-30T11:20:30Z",
+      "dateModified": "2022-10-10T16:43:55Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001282",
+      "id": "555555555555555555555558",
+      "identity": "ICCID: 89000000000000001282",
+      "imei": "300000000000010",
+      "imsi": "310000000000010",
+      "imsis": [
+        "310000000000010"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "7890",
+        "street": "Oak St",
+        "city": "San Francisco",
+        "state": "California",
+        "zipCode": "94102",
+        "country": "US"
+      },
+      "locLat": 37.7749295,
+      "locLng": -122.4194155,
+      "meid": null,
+      "msisdn": "5555555553",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "D5878E1F"
+    },{
+      "carrier": "Vodafone",
+      "dateActivated": "2021-07-08T15:14:05Z",
+      "dateAdded": "2014-08-25T10:49:14Z",
+      "dateModified": "2021-09-17T13:57:27Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001280",
+      "id": "555555555555555555555555",
+      "identity": "ICCID: 89000000000000001280",
+      "imei": "300000000000008",
+      "imsi": "310000000000008",
+      "imsis": [
+        "310000000000008"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "5300",
+        "street": "Brokensound BLVD NW",
+        "city": "Boca Raton",
+        "state": "Florida",
+        "zipCode": "33487",
+        "country": "US"
+      },
+      "locLat": 26.3951167,
+      "locLng": -80.1146146,
+      "meid": null,
+      "msisdn": "5555555551",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "B0129D9A"    
+    },
+    {
+      "carrier": "AT&T",
+      "dateActivated": "2021-06-21T14:30:45Z",
+      "dateAdded": "2015-09-12T09:15:22Z",
+      "dateModified": "2021-09-17T13:57:27Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001281",
+      "id": "555555555555555555555556",
+      "identity": "ICCID: 89000000000000001281",
+      "imei": "300000000000009",
+      "imsi": "310000000000009",
+      "imsis": [
+        "310000000000009"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "1234",
+        "street": "Main St",
+        "city": "New York",
+        "state": "New York",
+        "zipCode": "10001",
+        "country": "US"
+      },
+      "locLat": 40.7127753,
+      "locLng": -74.0059728,
+      "meid": null,
+      "msisdn": "5555555552",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "C1234D9B"
+    },
+    {
+      "carrier": "Verizon",
+      "dateActivated": "2022-01-15T09:22:18Z",
+      "dateAdded": "2019-04-30T11:20:30Z",
+      "dateModified": "2022-08-10T16:43:55Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001282",
+      "id": "555555555555555555555557",
+      "identity": "ICCID: 89000000000000001282",
+      "imei": "300000000000010",
+      "imsi": "310000000000010",
+      "imsis": [
+        "310000000000010"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "7890",
+        "street": "Oak St",
+        "city": "San Francisco",
+        "state": "California",
+        "zipCode": "94102",
+        "country": "US"
+      },
+      "locLat": 37.7749295,
+      "locLng": -122.4194155,
+      "meid": null,
+      "msisdn": "5555555553",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "D5678E1F"
+    },
+    {
+      "carrier": "Airtel",
+      "dateActivated": "2022-02-15T09:22:18Z",
+      "dateAdded": "2019-05-30T11:20:30Z",
+      "dateModified": "2022-10-10T16:43:55Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001282",
+      "id": "555555555555555555555558",
+      "identity": "ICCID: 89000000000000001282",
+      "imei": "300000000000010",
+      "imsi": "310000000000010",
+      "imsis": [
+        "310000000000010"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "7890",
+        "street": "Oak St",
+        "city": "San Francisco",
+        "state": "California",
+        "zipCode": "94102",
+        "country": "US"
+      },
+      "locLat": 37.7749295,
+      "locLng": -122.4194155,
+      "meid": null,
+      "msisdn": "5555555553",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "D5878E1F"
+    },{
+      "carrier": "Vodafone",
+      "dateActivated": "2021-07-08T15:14:05Z",
+      "dateAdded": "2014-08-25T10:49:14Z",
+      "dateModified": "2021-09-17T13:57:27Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001280",
+      "id": "555555555555555555555555",
+      "identity": "ICCID: 89000000000000001280",
+      "imei": "300000000000008",
+      "imsi": "310000000000008",
+      "imsis": [
+        "310000000000008"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "5300",
+        "street": "Brokensound BLVD NW",
+        "city": "Boca Raton",
+        "state": "Florida",
+        "zipCode": "33487",
+        "country": "US"
+      },
+      "locLat": 26.3951167,
+      "locLng": -80.1146146,
+      "meid": null,
+      "msisdn": "5555555551",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "B0129D9A"    
+    },
+    {
+      "carrier": "AT&T",
+      "dateActivated": "2021-06-21T14:30:45Z",
+      "dateAdded": "2015-09-12T09:15:22Z",
+      "dateModified": "2021-09-17T13:57:27Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001281",
+      "id": "555555555555555555555556",
+      "identity": "ICCID: 89000000000000001281",
+      "imei": "300000000000009",
+      "imsi": "310000000000009",
+      "imsis": [
+        "310000000000009"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "1234",
+        "street": "Main St",
+        "city": "New York",
+        "state": "New York",
+        "zipCode": "10001",
+        "country": "US"
+      },
+      "locLat": 40.7127753,
+      "locLng": -74.0059728,
+      "meid": null,
+      "msisdn": "5555555552",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "C1234D9B"
+    },
+    {
+      "carrier": "Verizon",
+      "dateActivated": "2022-01-15T09:22:18Z",
+      "dateAdded": "2019-04-30T11:20:30Z",
+      "dateModified": "2022-08-10T16:43:55Z",
+      "hasDataUsage": true,
+      "hasSmsUsage": true,
+      "hasVoiceUsage": true,
+      "iccid": "89000000000000001282",
+      "id": "555555555555555555555557",
+      "identity": "ICCID: 89000000000000001282",
+      "imei": "300000000000010",
+      "imsi": "310000000000010",
+      "imsis": [
+        "310000000000010"
+      ],
+      "inSession": true,
+      "locAddress": {
+        "streetNumber": "7890",
+        "street": "Oak St",
+        "city": "San Francisco",
+        "state": "California",
+        "zipCode": "94102",
+        "country": "US"
+      },
+      "locLat": 37.7749295,
+      "locLng": -122.4194155,
+      "meid": null,
+      "msisdn": "5555555553",
+      "status": "activated",
+      "tags": [
+        "has_imei",
+        "has_imsi",
+        "has_iccid",
+        "has_msisdn"
+      ],
+      "terminalId": "D5678E1F"
+    }
+]
+  

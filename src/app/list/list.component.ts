@@ -24,7 +24,9 @@ export class ListComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.initTable();
+    this._recordService.getData().subscribe(data => {
+      this.initTable();
+    });
   }
   initTable() {
     let recordDetails = this._recordService.getRecordWithDetails();
